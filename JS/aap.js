@@ -17,7 +17,6 @@ const getMovies = async (api) => {
 
 const showMovie = (data) => {
     // movieBox.innerHTML = "";
-    console.log(data);
     data.forEach(element => {
         const box = document.createElement("div");
         box.classList.add("box");
